@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5%;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 1px 2px 2px rgb(241, 236, 236);
+  z-index: 1;
+}
+.header__logo {
+  height: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 40px;
+  background: transparent;
+}
+.header__logo__left {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.header__logo-img {
+  width: 40px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.header .nav__list {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header .nav__list-item:hover {
+  border-bottom: 2px solid #000;
+  color: #746868;
+}
+.header .nav__list-item-link {
+  font-size: 24px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.main {
+  height: 485vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 575px) {
+  .main {
+    width: 100px;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+.main__upper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main__upper-title {
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-size: 95px;
+  opacity: 0.9;
+  font-weight: 300;
+  font-style: normal;
+  margin: 40px;
+  margin-top: 5px;
+  font-family: "Lexend Zetta", sans-serif;
+}
+.main__upper-subtitle {
+  margin: 30px;
+  width: 700px;
+  height: 60px;
+  text-indent: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main__upper-button {
+  width: 140px;
+  height: 54px;
+  margin: 20px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #222;
+  cursor: pointer;
+}
+.main__upper-button:hover {
+  background-color: #616161;
+}
+.main__upper-image {
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 60px;
+}
+.main__center {
+  height: 900px;
+  width: 100%;
+  background-color: #dcd4d8;
+}
+.main__center-header {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Lexend Zetta", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.main__center-photos {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px;
+}
+.main__center-photos-img {
+  width: 600px;
+  height: 700px;
+}
+.main__center-bottom {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  margin: 0 70px 0 70px;
+}
+.main__center-bottom-left {
+  width: 600px;
+}
+.main__center-bottom-left-title {
+  text-transform: uppercase;
+  font-family: "Lexend Zetta", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.main__center-bottom-left-subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+.main__center-bottom-right {
+  width: 600px;
+}
+.main__center-bottom-right-title {
+  font-family: "Lexend Zetta", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.main__center-bottom-right-subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+.main__bottom {
+  height: 1000px;
+  width: 100%;
+  background-color: rgb(71, 82, 65);
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+  align-items: center;
+}
+.main__bottom-button {
+  width: 218px;
+  height: 55px;
+  background-color: #fff;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.main__bottom-button:hover {
+  opacity: 0.9;
+}
+.main__bottom-title {
+  text-transform: uppercase;
+  font-family: "Lexend Zetta", sans-serif;
+  font-size: 95px;
+  opacity: 0.9;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(248, 214, 180);
+  font-size: 110px;
+  margin-top: 80px;
+}
+.main__bottom-list {
+  text-transform: uppercase;
+  font-family: "Lexend Zetta", sans-serif;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  gap: 80px;
+  font-size: 40px;
+}
+.main__bottom-list-item {
+  text-decoration: none;
+}
+.main__bottom-list-link {
+  color: rgb(248, 214, 180);
+  text-decoration: none;
+  font-family: "Lexend Zetta", sans-serif;
+  opacity: 0.9;
+  font-weight: 400;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
